@@ -1,0 +1,13 @@
+<stack class="stack">
+    <image src='/common/images/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title" style="color: red">
+            国家选择
+        </text>
+        <picker-view class="pickerView" type="text" range="{{country}}" selected="1"></picker-view>
+        <text class="title" style="color: #FF0000">
+            时间选择
+        </text>
+        <picker-view class="pickerViewTime" type="time" selected="01:00"></picker-view>
+    </div>
+</stack>

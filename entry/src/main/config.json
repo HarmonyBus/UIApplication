@@ -1,0 +1,46 @@
+{
+  "app": {
+    "bundleName": "com.example.uiappcase",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/animator/animator",
+          "pages/arrays/arrays",
+          "pages/cssAnimation/cssAnimation",
+          "pages/swiperScreen/swiperScreen",
+          "pages/progressScreen/progressScreen",
+          "pages/sliderScreen/sliderScreen",
+          "pages/pickerScreen/pickerScreen",
+          "pages/storageScreen/storageScreen",
+          "pages/sensorScreen/sensorScreen"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}

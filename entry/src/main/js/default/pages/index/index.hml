@@ -1,0 +1,52 @@
+<stack class="stack">
+    <image src='/common/images/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem" onclick="openPage('arrays/arrays')">
+                <text>
+                    Array
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('animator/animator')">
+                <text>
+                    Animator
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('cssAnimation/cssAnimation')">
+                <text>
+                    CSS Animation
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('swiperScreen/swiperScreen')">
+                <text>
+                    Swiper
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('progressScreen/progressScreen')">
+                <text>
+                    Progress
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('sliderScreen/sliderScreen')">
+                <text>
+                    Slider / Switch
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('pickerScreen/pickerScreen')">
+                <text>
+                    Picker
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('storageScreen/storageScreen')">
+                <text>
+                    Storage
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('sensorScreen/sensorScreen')">
+                <text>
+                    Sensor
+                </text>
+            </list-item>
+        </list>
+    </div>
+</stack>

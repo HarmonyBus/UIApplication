@@ -1,0 +1,24 @@
+<stack class="stack">
+    <image src='/common/images/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text>
+            Arrays
+        </text>
+    <!-- div 循环渲染 -->
+    <!--默认情况下，$item 表示数组中的元素，$idx 表示数组中元素的索引。-->
+        <div for="{{arrayData}}" tid="id" class="containerArray">
+            <text>{{$idx}}.{{$item.name}}
+            </text>
+        </div>
+    <!-- 定义元素变量的名称。 -->
+        <div for="{{value in arrayData}}" tid="id" class="containerArray">
+            <text>{{$idx}}.{{value.name}}
+            </text>
+        </div>
+    <!-- 定义元素变量及其索引名称。-->
+        <div for="{{(index, value) in arrayData}}" tid="id" class="containerArray">
+            <text>{{index}}.{{value.name}}
+            </text>
+        </div>
+    </div>
+</stack>
