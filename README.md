@@ -15,3 +15,10 @@
 - [【JS版 No.010】HarmonyOS鸿蒙开发之 JS 语言处理存储，使用键值引用来获取、设置、清除和删除存储](https://www.harmonybus.net/archives/2290)
 - [【JS版 No.011】HarmonyOS鸿蒙开发之 JS 语言处理传感器来处理振动，获取位置、亮度和设备信息](https://www.harmonybus.net/archives/2293)
 - [【JS版 No.012 附带源码】Harmony OS Wearable 秒表项目开发小实践](https://www.harmonybus.net/archives/2234)
+
+## 学习交流
+
+- 鸿蒙OS技术交流QQ群：714518656
+- 公众号：HarmonyBus
+- 官方开源学习社区：www.harmonybus.net
+- 视频课程：www.chengxuka.com
